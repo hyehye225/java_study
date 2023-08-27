@@ -1,5 +1,7 @@
-package Ch11.Properties;
-import java.util.*;
+package ch11;
+
+import java.util.Enumeration;
+import java.util.Properties;
 public class PropertiesEx1 {
     public static void main(String[] args) {
         Properties prop = new Properties();
@@ -28,3 +30,4 @@ public class PropertiesEx1 {
 
     }
 }
+
