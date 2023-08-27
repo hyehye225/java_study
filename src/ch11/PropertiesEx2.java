@@ -17,8 +17,8 @@ public class PropertiesEx2 {
 
         try {
             prop.load(new FileInputStream(inputFile));
-        } catch (IOException var10) {
-            System.out.println("not found file");
+        } catch (IOException e) {
+            System.out.println("file not found");
             System.exit(0);
         }
 
@@ -48,7 +48,7 @@ public class PropertiesEx2 {
         System.out.println("max : " + max);
         System.out.println("min : " + min);
         System.out.println("sum : " + sum);
-        System.out.println("average : " + (double)sum * 100.0 / (double)data.length / 100.0);
+        System.out.println("average : " + sum * 100.0 / (double)data.length / 100.0);
     }
 }
 
